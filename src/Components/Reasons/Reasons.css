@@ -1,0 +1,56 @@
+.reasons{
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.righth{
+    text-transform:uppercase;
+    gap: 1rem;
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+.righth>span{
+    font-weight: bold;
+    color: var(--orange);
+    font-size: 2rem;
+
+}
+.righth>div{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+.details{
+    display: flex;
+    flex-direction:column;
+    gap: 1rem;
+
+
+}
+.details>div{
+    
+    font-size: 1rem;
+    gap: 5rem;
+    text-align:center;
+    padding: 2px;
+
+}
+.details>div>img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.partners{
+   flex-direction: row;
+    gap: 1rem;
+}
+.partners>img{
+   
+    width: 2.5rem;
+    
+    
+}
